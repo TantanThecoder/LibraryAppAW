@@ -24,8 +24,8 @@ public class Main {
         movies[0] = new Movies();
         movies[1] = new Movies();
 
-        movies[0].setTitle("Jonahans äventyr");
-        movies[0].setGenre(MovieGenre.ACTION);
+        movies[0].setTitle("Jonathans äventyr");
+        movies[0].setGenre(MovieGenre.DOCUMENTARY);
         movies[0].setPrice(250);
 
         movies[1].setTitle("Jonathan Thege");
@@ -39,10 +39,4 @@ public class Main {
 
 
     }
-    public static void printMovieDetails(Movies movie){
-        System.out.println("Title: " + movie.getTitle() + "\nGenre: " + movie.getGenre() + "\nPrice: " + movie.getPrice());
-        System.out.println();
-    }
-
-
 }
