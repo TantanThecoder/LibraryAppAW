@@ -20,7 +20,7 @@ public class Main {
 
     }
 
-    static void printBookInfo (Book book){
+    public static void printBookInfo (Book book){
         System.out.println("Author: " + book.getAuthor() + "\n" + "Title: " + book.getTitle() + "\n" + "Price: "+ book.getPrice() + " kr");
         System.out.println();
 

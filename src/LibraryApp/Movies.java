@@ -1,9 +1,9 @@
 package LibraryApp;
 
 public class Movies {
-    String title;
-    MovieGenre genre;
-    int price;
+    private String title;
+    private MovieGenre genre;
+    private int price;
 
     public Movies(String title, MovieGenre genre, int price) {
         this.title = title;
