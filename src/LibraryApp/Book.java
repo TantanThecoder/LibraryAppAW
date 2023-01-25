@@ -1,15 +1,10 @@
 package LibraryApp;
 
 public class Book {
-    private String title;
-    private String author;
-    private int price;
+     String title;
+     String author;
+     int price;
 
-    public Book(String title, String author, int price) {
-        this.title = title;
-        this.author = author;
-        this.price = price;
-    }
 
     public String getTitle() {
         return title;
@@ -34,4 +29,8 @@ public class Book {
     public void setPrice(int price) {
         this.price = price;
     }
+     public void printBookInfo () {
+         System.out.println("Author: " + getAuthor() + "\nTitle: " + getTitle() + "\nPrice: " + getPrice());
+         System.out.println();
+     }
 }
