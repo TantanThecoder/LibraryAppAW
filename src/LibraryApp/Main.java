@@ -1,4 +1,5 @@
 package LibraryApp;
+
 public class Main {
     public static void main(String[] args) {
         Book[] books = new Book[2];
@@ -6,6 +7,7 @@ public class Main {
 
         books[0] = new Book();
         books[1] = new Book();
+
 
         books[0].setTitle("Jonathan Äventyr i orten");
         books[0].setAuthor("Jonathan Thege");
